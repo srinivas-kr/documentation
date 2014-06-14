@@ -1,0 +1,11 @@
+sudo apt-get install python-pip(A tool for installing and managing Python packages.)
+sudo apt-get install RPi.GPIO(python library to use GPIO)
+pip install pyserial or sudo apt-get install python-serial(library for serial)
+sudo apt-get install unzip(to unzip tar files)
+sudo apt-get install wget
+sudo apt-get install dnsutils
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install mysql-server
+sudo apt-get install nginx
+sudo apt-get install sqlite3
+for enabling(freeing) UART on PI floow the link(https://learn.adafruit.com/adafruit-nfc-rfid-on-raspberry-pi/freeing-uart-on-the-pi)
