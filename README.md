@@ -9,4 +9,4 @@ It contains details about:
   4. Details of Digi865lp modules, recovery procedure for digi modules.
   5. Details of interfacing a XBee module with raspberry Pi
   6. Detials of raspberry pi communicating with two slaves(temperature&humidity sensor connected to 2 arduinos) over digi        XBee modules.
-  7. Details of single BoardLinux computers.
+  7. Details of single BoardLinux computers.(can be found here https://github.com/ruthvik92/different-socs)
