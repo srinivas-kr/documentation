@@ -10,3 +10,4 @@ It contains details about:
   5. Details of interfacing a XBee module with raspberry Pi
   6. Detials of raspberry pi communicating with two slaves(temperature&humidity sensor connected to 2 arduinos) over digi        XBee modules.
   7. Details of single BoardLinux computers.(can be found here https://github.com/ruthvik92/different-socs)
+  8. Difficulties faced during RS485 and XBEE modules communication are attached in a textfile in respective folders 
