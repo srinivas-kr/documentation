@@ -1,5 +1,7 @@
-##send quirey to arduino over xbee modules to receive temperature and humidity
- #with repeater 
+"""send quirey to arduino over xbee modules to receive temperature and humidity
+ with repeater"""
+ """the point to be noted when repeater is  used is master will receive back A or B or C or D(beacuse this data will be BROADCASTED 
+  by repeater and slave will receive back temp,humidity it transmits(BROADCASTED by repeater)"""
 import serial
 import time
 import sys
@@ -11,7 +13,6 @@ sys.stdout.flush()
 ser.flushInput()
 ser.flushOutput()
 while True:
- 
     c=raw_input("enter A for tmperature of house1 and B for humidity, enter C for temperature of house2 and D for humidity:")
     ser.write((c))
     time.sleep(1)
