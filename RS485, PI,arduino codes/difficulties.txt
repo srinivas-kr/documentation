@@ -1,0 +1,4 @@
+#1. synchronization between arduino and Pi, i mean when Pi is sending something make sure that 
+     Arduino is in listening mode and viz. This can be achieved by introducing delays.
+#2. Raspberry Pi GPIOs are 3.3v but Arduino and ADM/MAX 485 are on 5v, make sure that you are 
+     stepping up/down.
