@@ -1,0 +1,6 @@
+#1. Make sure that you configure the digi modules properly.
+#2. sometimes modules will not repsond for the read/write operations using digi XCTU software.
+check if baudrates and system settings are same on PC and XCTU.
+#3. Most likely you should try to recover the module, digi link for recovery is given in text file digi links in digi docs folder.
+#4.If the module is not responding Evethough you performed recovery operation most likely the module is irreparable.
+#5. here AT mode is used, but if you want to use API mode python code for parsing the address of the source is given in the repository.(use digi link provided in digilinks file to generate API frames automatically)
