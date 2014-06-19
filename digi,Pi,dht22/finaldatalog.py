@@ -1,6 +1,6 @@
 
-# temperature and humidity data logging with repeater and updating the same data in sqlite3 database
-#Author:Ruthvik Vaila
+"""# temperature and humidity data logging with repeater and updating the same data in sqlite3 database
+   Author:Ruthvik Vaila"""
 import serial
 import time
 import sys
@@ -18,11 +18,7 @@ a=['A','B']
 while True:
     for i in range(0,2):
         c=a[i]
-    #c=raw_input("enter A for tmperature of house1 and B for humidity, enter C for temperature of house2 and E for humidity:")
         ser.write((c))
-        #time.sleep(0)
-        #b=ser.read(1)
-        #print b
         time.sleep(2.3)
         #b=ser.read(1) #(uncomment if using repeater)
         b=ser.read(ser.inWaiting())
@@ -36,7 +32,6 @@ while True:
             c1=conn1.cursor()
             c1.execute("""INSERT INTO data values(date('now'),time('now'),(?))""",( b,))
             conn1.commit()
-            
         else :
             c2=conn2.cursor()
             c2.execute("""INSERT INTO data values(date('now'),time('now'),(?))""",( b,))
