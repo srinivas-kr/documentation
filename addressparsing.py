@@ -1,4 +1,4 @@
-#forming a sample MAC address from the API frames received from XBee module
+"""#forming a sample MAC address from the API frames received from XBee module"""
 a=['0x13','0xa2','0x0','0x40','0xbc','0xdb','0x9a']#sample frames to be contained in received data
 add=[]
 address= ( int(0x13a20040bcdb9a))
