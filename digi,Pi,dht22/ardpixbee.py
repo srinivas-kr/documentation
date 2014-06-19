@@ -1,4 +1,5 @@
-#send quirey to arduino over xbee modules
+#send quirey to arduino over xbee modules to receive temperature and humidity
+#without repeater
 import serial
 import time
 import sys
@@ -12,7 +13,7 @@ ser.flushInput()
 ser.flushOutput()
 def send_data():
     global c
-    c=raw_input("enter A for tmperature of house1 and B for humidity, enter C for temperature of house2 and E for humidity:")
+    c=raw_input("enter A for tmperature of house1 and B for humidity, enter C for temperature of house2 and D for humidity:")
     ser.write((c))
     print c
 

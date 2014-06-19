@@ -1,5 +1,5 @@
 
-//code that send temperature if A is receved and humidity if B is received to raspberry pi via xbee modules
+//code that send temperature if A is receved and humidity if B is received to raspberry pi via xbee modules without repeater
 #include <DHT22.h>
 // Only used for sprintf
 #include <LiquidCrystal.h>
