@@ -1,5 +1,7 @@
+//This code is demonstrated successfully and code is working properly , we need level converter in between arduino and 
+// raspberry pi atleast for transmission part (code and hardware is tested with 40 mtrs of cable)
+//this code receives the data from raspberry pi on rs485 and sends it back
 
-this code receives the data from raspberry pi on rs485 and sends it back
 #include <SoftwareSerial.h>
 /*-----( Declare Constants and Pin Numbers )-----*/
 #define SSerialRX        10  //Serial Receive pin
